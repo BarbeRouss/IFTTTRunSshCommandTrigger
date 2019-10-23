@@ -4,6 +4,9 @@
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="..\azure-pipelines.yml" Link="azure-pipelines.yml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.28" />
     <PackageReference Include="SSH.NET" Version="2016.1.0" />
   </ItemGroup>

@@ -6,6 +6,8 @@
 trigger:
 - master
 
+vmImage: 'Azure Pipelines'
+
 pool:
 - task: MSBuild@1
   inputs:
@@ -13,7 +15,6 @@ pool:
     platform: 'Any CPU'
     configuration: 'Release'
     restoreNugetPackages: true
-  vmImage: 'ubuntu-latest'
 
 steps:
 - script: echo Hello, world!
