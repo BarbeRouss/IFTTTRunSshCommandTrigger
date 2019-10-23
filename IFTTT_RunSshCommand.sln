@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IFTTT_RunSshCommand.AzureFunction", "IFTTT_RunSshCommand.AzureFunction\IFTTT_RunSshCommand.AzureFunction.csproj", "{1E11E625-AD10-49E4-A82D-0F5EBC268566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E11E625-AD10-49E4-A82D-0F5EBC268566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E11E625-AD10-49E4-A82D-0F5EBC268566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E11E625-AD10-49E4-A82D-0F5EBC268566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E11E625-AD10-49E4-A82D-0F5EBC268566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFE1A7C8-CC6A-4A59-B918-461BBE8B63AE}
+	EndGlobalSection
+EndGlobal
